@@ -469,6 +469,35 @@
                 padding: 8px 15px; 
             }
         }
+
+        .food-icons-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            overflow: hidden;
+            white-space: nowrap;
+            background: linear-gradient(135deg, #ff7043, #d32f2f);
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 999;
+        }
+
+        .food-icon {
+            width: 40px; /* Smaller size for icons */
+            height: 40px;
+            margin: 0 15px;
+            animation: moveIcons 10s linear infinite;
+        }
+
+        @keyframes moveIcons {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
     </style>
 </head>
 <body>
@@ -643,6 +672,33 @@
     </div>
 </section>
             
+<div class="food-icons-container">
+    <img src="https://cdn-icons-png.flaticon.com/128/877/877951.png" alt="Burger Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="Pizza Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" alt="Fries Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046787.png" alt="Drink Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046788.png" alt="Ice Cream Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/128/877/877951.png" alt="Burger Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="Pizza Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" alt="Fries Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046787.png" alt="Drink Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046788.png" alt="Ice Cream Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/128/877/877951.png" alt="Burger Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="Pizza Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" alt="Fries Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046787.png" alt="Drink Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046788.png" alt="Ice Cream Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/128/877/877951.png" alt="Burger Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="Pizza Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" alt="Fries Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046787.png" alt="Drink Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046788.png" alt="Ice Cream Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/128/877/877951.png" alt="Burger Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="Pizza Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" alt="Fries Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046787.png" alt="Drink Icon" class="food-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046788.png" alt="Ice Cream Icon" class="food-icon">
+</div>
           
         <div align="center">
             <button onclick="handleOrderButton()" class="apply-order-btn pulse">
